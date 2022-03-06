@@ -6,7 +6,8 @@ import sklearn
 import pickle
 import numpy as np
 from nltk.stem.snowball import SnowballStemmer 
-import pickle
+
+
 stemmer = SnowballStemmer("russian") 
 russian_stopwords = stopwords.words("russian")
 
