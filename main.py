@@ -32,6 +32,7 @@ async def process_help_comand(message: types.Message):
     print(message.from_user.id)
     await bot.send_message(message.from_user.id, f"{user}, напиши мне 'Да', и я попоробую угадать тему твоей новости!")
 
+
 # Получение сообщений от пользователя
 @dp.message_handler()
 async def get_text_message(message: types.Message):
